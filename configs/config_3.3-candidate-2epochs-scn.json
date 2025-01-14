@@ -1,0 +1,13 @@
+{
+    "dataset_name": "sicilian_translate_describe",
+    "model_id": "google/gemma-2-2b-it",
+    "modules_to_save": [
+        "lm_head"
+    ],
+    "r": 64,
+    "lora_alpha": 16,
+    "epochs": 2,
+    "dropout":0.3,
+    "learning_rate": 0.001,
+    "lr_scheduler_type": "cosine"
+}
